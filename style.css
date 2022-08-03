@@ -1,0 +1,22 @@
+.top{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    height: 10px;
+    width: 1260px;
+    bottom: 10px;
+    right: 5pxpx;
+    background-color: coral;
+}
+.para{
+    font-family: 'Times New Roman', Times, serif;
+}
+.pppp{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+}
