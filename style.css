@@ -20,6 +20,8 @@ position: static;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2rem;
+
 }
 .btn1{
     height: 2rem;
@@ -38,7 +40,7 @@ position: static;
     font-size: 1rem;
     border-color: rgb(80, 145, 7);
   border-radius: 5%;
-  margin-right: 0.2%;
+  margin-left: 0.2%;
 }
 
 .btn1:hover{
@@ -55,12 +57,28 @@ p{
 text-align: center;
 font-size: 2rem;
 color: white;
-padding-top: 1rem;
+padding-top: 2rem;
 font-style: oblique;
 }
 
 .flex{
     display: flex;
     margin: 0 auto;
-    align-items: center;
+   justify-content: center;
+   margin: 4rem;
 }
+.frm1{
+   color: rgb(2, 53, 53);
+   margin-right: 2rem;
+   border-color: black;
+   text-align: center;
+   
+}
+.frm2{
+    color: rgb(2, 53, 53);
+    margin-left: 2rem;
+    border-color: black;
+ }
+ .frm3{
+
+ }
