@@ -44,16 +44,21 @@ position: static;
   border-radius: 5%;
   margin-left: 0.2%;
 }
+ /* hover for buttons */
 
 .btn1:hover{
-    color: rgb(11, 77, 11);
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 255, 157);
 }
 
 .btn2:hover{
-    color: forestgreen;
-    background-color: black;
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 255, 157);
+}
+
+.btn3:hover{
+    color: forestgreen;
+   background-color: rgb(0, 255, 157);
 }
 
 /* for text Simple Form */
@@ -67,38 +72,56 @@ font-style: oblique;
 }
 
 /* for name and last name */
-.flex{
+.flex1{
     display: flex;
-    margin: 0 auto;
+    
    justify-content: center;
-   margin: 4rem;
+   margin: 2rem;
 }
 .frm1{
+    background-color: rgb(85, 116, 116);
+    width: 10rem;
    color: rgb(2, 53, 53);
    margin-right: 2rem;
-   border-color: black;
-   text-align: center;
+   border-color: rgb(5, 5, 5);
+   border-style: groove;
+   border-width: .2rem;
+   
    
 }
 .frm2{
+    background-color: rgb(85, 116, 116);
+    width: 10rem;
     color: rgb(2, 53, 53);
     margin-left: 2rem;
-    border-color: black;
-    border-style: dotted;
+    border-color: rgb(5, 5, 5);
+    border-style: groove;
+    border-width: .2rem;
  }
 
 
 /* form email and password */
 
 .frm3{
+    background-color: rgb(85, 116, 116);
 position: relative;
 width: 22.5rem;
 height: 1.5rem;
+margin: 10px;
+border-color: rgb(5, 5, 5);
+border-style: groove;
+border-width: .2rem;
 }
+
 .frm4{
+    background-color: rgb(85, 116, 116);
     position: relative;
     width: 22.5rem;
     height: 1.5rem;
+    margin: 10px;
+    border-color: rgb(5, 5, 5);
+    border-style: groove;
+    border-width: .2rem;
     }
 
 
@@ -115,7 +138,7 @@ height: 1.5rem;
     width: 35rem;
   background-color: rgb(80, 136, 136);
   font-size: 1rem;
-  border-color: rgb(100, 0, 0);
+  border-color: rgb(80, 145, 7);
   margin-right: 0.2%;
   margin-left: 25rem;
 
