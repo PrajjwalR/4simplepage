@@ -1,9 +1,18 @@
 body{
     box-sizing: border-box;
-background-color: rgb(2, 53, 53);   
+    border: 50PX;
+    background-image: url(https://imgs.search.brave.com/HfywxBiT59CdqxVTMb1LcXxWA3ngzov1Dcqy17srExk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDAwLzQw/MS80MjQvb3JpZ2lu/YWwvZGl2aWRlci1s/aW5lLWRlc2lnbi1l/bGVtZW50cy12ZWN0/b3ItY29sbGVjdGlv/bi5qcGc) ;
+}
+
+.div-body{
+    height: 550px;
+background-color: rgb(2, 53, 53); 
+margin: 60PX;
 
 }
-  
+
+/* For Texts */
+
 h1{
     text-align: center;
 }
@@ -14,6 +23,14 @@ position: static;
     font-style: italic;
 
   
+}
+
+p{
+text-align: center;
+font-size: 2rem;
+color: white;
+padding-top: 2rem;
+font-style: initial;
 }
 
 /* for login and sig up button */
@@ -61,15 +78,8 @@ position: static;
    background-color: rgb(0, 255, 157);
 }
 
-/* for text Simple Form */
 
-p{
-text-align: center;
-font-size: 2rem;
-color: white;
-padding-top: 2rem;
-font-style: oblique;
-}
+
 
 /* for name and last name */
 .flex1{
@@ -105,9 +115,9 @@ font-style: oblique;
 .frm3{
     background-color: rgb(85, 116, 116);
 position: relative;
-width: 22.5rem;
+width: 25rem;
 height: 1.5rem;
-margin: 10px;
+margin: -76px;
 border-color: rgb(5, 5, 5);
 border-style: groove;
 border-width: .2rem;
@@ -116,9 +126,9 @@ border-width: .2rem;
 .frm4{
     background-color: rgb(85, 116, 116);
     position: relative;
-    width: 22.5rem;
+    width: 25rem;
     height: 1.5rem;
-    margin: 10px;
+    margin: -76px;
     border-color: rgb(5, 5, 5);
     border-style: groove;
     border-width: .2rem;
